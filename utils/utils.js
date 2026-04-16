@@ -42,5 +42,4 @@ export function useUpdateEffect(effect, dependencies = []) {
     } else {
       return effect();
     }
-  }, dependencies);
-}
+  }
